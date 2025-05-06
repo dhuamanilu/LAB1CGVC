@@ -6,6 +6,7 @@ public class WeaponManager : MonoBehaviour
 {
     public GameObject playerCam;
     public float range = 100f;
+    public float damage = 25f;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +28,10 @@ public class WeaponManager : MonoBehaviour
         if(Physics.Raycast(playerCam.transform.position, transform.forward, out hit, range))
         {
             Debug.Log("hit");
+            EnemyManager enemyManager = hit.transform.GetComponent<EnemyManager>();
+            if (enemyManager != null) {
+                enemyManager.Hit(damage);
+            }
         }
     }
 }

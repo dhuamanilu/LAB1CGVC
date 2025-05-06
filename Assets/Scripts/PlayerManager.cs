@@ -11,7 +11,7 @@ public class PlayerManager : MonoBehaviour
         health-=damage;
         if(health <= 0)
         {
-            //SceneManager.LoadScene(0);
+            SceneManager.LoadScene(0);
         }
     }
     void Start()
