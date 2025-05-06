@@ -8,14 +8,17 @@ public class EnemyManager : MonoBehaviour
     public Animator enemyAnimator;
     public float damage = 20f;
     public float health = 100f;
+    public GameManager gameManager;
     // Start is called before the first frame update
 
     public void Hit(float damage)
     {
         health -= damage;
 
-        if (health <= 0) { 
+        if (health <= 0) {
+            gameManager.enemiesAlive--;
             Destroy(gameObject);
+
         }
     }
     void Start()
