@@ -370,6 +370,7 @@
 "Assets/Scripts/MouseLook.cs"
 "Assets/Scripts/PlayerManager.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/WeaponManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
