@@ -25,13 +25,13 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(groundCheck.position,groundDistance,groundMask);
         
-        Debug.Log("isGrounded: " + isGrounded); // Ver si está tocando el suelo
-        Debug.DrawRay(groundCheck.position, Vector3.down * groundDistance, Color.red);
+        //Debug.Log("isGrounded: " + isGrounded); // Ver si está tocando el suelo
+        
 
         if (controller.isGrounded && velocity.y < 0 )
         {
             velocity.y = -2f;
-            Debug.Log("Reset velocity.y to -2");
+            //Debug.Log("Reset velocity.y to -2");
         }
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
@@ -39,12 +39,12 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = (transform.right * x) + (transform.forward*z);
         controller.Move(move*speed*Time.deltaTime);
         //velocity.y += gravity * Time.deltaTime;
-        Debug.Log("Updated velocity.y (with gravity): " + velocity.y);
+        //Debug.Log("Updated velocity.y (with gravity): " + velocity.y);
         controller.Move(velocity * Time.deltaTime);
         if(Input.GetButtonDown("Jump") && controller.isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
-            Debug.Log("Jump! velocity.y = " + velocity.y);
+            //Debug.Log("Jump! velocity.y = " + velocity.y);
         }
 
     }
