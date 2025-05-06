@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\My project\\assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\My project\\assets\\scripts\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\usuario\\my project\\assets\\scripts\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\usuario\\my project\\assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\My project\\assets\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WeaponManager.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\My project\\Assets\\Scripts\\WeaponManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WeaponManager.cs",
               "ToolTip": "C:\\Users\\Usuario\\My project\\Assets\\Scripts\\WeaponManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\WeaponManager.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T00:45:10.319Z",
               "EditorCaption": ""
@@ -55,12 +55,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerManager.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T00:23:58.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T00:23:58.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EnemyManager.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\My project\\Assets\\Scripts\\EnemyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyManager.cs",

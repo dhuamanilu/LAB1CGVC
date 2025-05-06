@@ -291,6 +291,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 934905430373764539}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &57644193 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 376817975113412249, guid: 955eb50ca6ca97143929189dcc3d688c,
+    type: 3}
+  m_PrefabInstance: {fileID: 934905430373764539}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &63048698
 GameObject:
   m_ObjectHideFlags: 0
@@ -4600,6 +4606,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCam: {fileID: 53619942}
   range: 100
+  damage: 25
+  playerAnimator: {fileID: 57644193}
 --- !u!1001 &1539695160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5780,6 +5788,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1496441947}
     m_Modifications:
+    - target: {fileID: 376817975113412249, guid: 955eb50ca6ca97143929189dcc3d688c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5ff0199ae333844478887a2ff63556ba, type: 2}
     - target: {fileID: 692809411602992541, guid: 955eb50ca6ca97143929189dcc3d688c,
         type: 3}
       propertyPath: m_Name
