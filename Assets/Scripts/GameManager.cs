@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public int enemiesAlive = 0;
     public int round = 0;
     public GameObject[] spawnPoints;
     public GameObject enemyPrefab;
+    public Text roundNumber;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     {
         if (enemiesAlive == 0) {
             round++;
+            roundNumber.text = "Round: "+round.ToString();
             NextWave(round);
         }
     }
