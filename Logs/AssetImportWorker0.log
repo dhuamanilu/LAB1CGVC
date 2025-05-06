@@ -15,7 +15,7 @@ C:/Users/Usuario/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50113
+49974
 Successfully changed project path to: C:/Users/Usuario/My project
 C:/Users/Usuario/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,16 +49,16 @@ C:/Users/Usuario/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [41504]  Target information:
+Player connection [3076]  Target information:
 
-Player connection [41504]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1643893431 [EditorId] 1643893431 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MJ4KM4CH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3076]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2336237226 [EditorId] 2336237226 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MJ4KM4CH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [41504]  * "[IP] 192.168.0.35 [Port] 0 [Flags] 2 [Guid] 1643893431 [EditorId] 1643893431 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MJ4KM4CH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3076]  * "[IP] 192.168.0.35 [Port] 0 [Flags] 2 [Guid] 2336237226 [EditorId] 2336237226 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MJ4KM4CH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [41504] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [41504] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3076] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3076] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 9.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.47f1 (88c277b85d21)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Resources/UnitySubsystems
@@ -74,46 +74,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008420 seconds.
-- Loaded All Assemblies, in  0.404 seconds
+Registered in 0.005924 seconds.
+- Loaded All Assemblies, in  0.317 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.305 seconds
-Domain Reload Profiling: 708ms
-	BeginReloadAssembly (113ms)
+- Finished resetting the current domain, in  0.220 seconds
+Domain Reload Profiling: 536ms
+	BeginReloadAssembly (94ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (170ms)
-		LoadAssemblies (112ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (93ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (167ms)
-			TypeCache.Refresh (165ms)
-				TypeCache.ScanAssembly (151ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (110ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (306ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (220ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (259ms)
+		SetupLoadedEditorAssemblies (182ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (184ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,51 +122,51 @@ Domain Reload Profiling: 708ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.855 seconds
+- Loaded All Assemblies, in  0.584 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.893 seconds
-Domain Reload Profiling: 1747ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  0.740 seconds
+Domain Reload Profiling: 1323ms
+	BeginReloadAssembly (124ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (652ms)
-		LoadAssemblies (466ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (301ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (253ms)
-			TypeCache.Refresh (219ms)
-				TypeCache.ScanAssembly (201ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (893ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (111ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (741ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (715ms)
+		SetupLoadedEditorAssemblies (581ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (175ms)
-			ProcessInitializeOnLoadAttributes (449ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (435ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 4.69 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5020 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (347.9 KB). Loaded Objects now: 5483.
-Memory consumption went from 199.8 MB to 199.5 MB.
-Total: 3.631100 ms (FindLiveObjects: 0.465600 ms CreateObjectMapping: 0.142600 ms MarkObjects: 2.803500 ms  DeleteObjects: 0.218100 ms)
+Unloading 5021 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (349.1 KB). Loaded Objects now: 5484.
+Memory consumption went from 199.7 MB to 199.3 MB.
+Total: 3.565000 ms (FindLiveObjects: 0.402900 ms CreateObjectMapping: 0.137600 ms MarkObjects: 2.842900 ms  DeleteObjects: 0.180200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,53 +182,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 835813.750429 seconds.
+  path: Assets/Scripts/PlayerManager.cs
+  artifactKey: Guid(af8fa7bdef3f3bc46a2d7ee782984d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerManager.cs using Guid(af8fa7bdef3f3bc46a2d7ee782984d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b3df9d8708752cde0af679683971fc9f') in 0.004521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.410 seconds
+- Loaded All Assemblies, in  0.567 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.711 seconds
-Domain Reload Profiling: 2118ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  1.983 seconds
+Domain Reload Profiling: 2547ms
+	BeginReloadAssembly (181ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (189ms)
-		LoadAssemblies (253ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (285ms)
+		LoadAssemblies (336ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (4ms)
+		AnalyzeDomain (49ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1712ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1983ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (494ms)
+		SetupLoadedEditorAssemblies (427ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (377ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4868 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (316.0 KB). Loaded Objects now: 5487.
-Memory consumption went from 174.0 MB to 173.7 MB.
-Total: 3.525300 ms (FindLiveObjects: 0.376000 ms CreateObjectMapping: 0.196400 ms MarkObjects: 2.853600 ms  DeleteObjects: 0.098300 ms)
+Unloading 4869 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (316.0 KB). Loaded Objects now: 5488.
+Memory consumption went from 173.7 MB to 173.4 MB.
+Total: 3.158300 ms (FindLiveObjects: 0.395900 ms CreateObjectMapping: 0.126000 ms MarkObjects: 2.532100 ms  DeleteObjects: 0.103400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -245,62 +254,53 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 833819.866116 seconds.
-  path: Assets/Scripts/EnemyManager.cs
-  artifactKey: Guid(c797ecf7490444045b123a301f4ab0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyManager.cs using Guid(c797ecf7490444045b123a301f4ab0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f65f10ace0523f5902db764895d30dc5') in 0.002866 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.335 seconds
+- Loaded All Assemblies, in  0.369 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.112 seconds
-Domain Reload Profiling: 1446ms
-	BeginReloadAssembly (119ms)
+- Finished resetting the current domain, in  0.963 seconds
+Domain Reload Profiling: 1329ms
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (165ms)
-		LoadAssemblies (213ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (176ms)
+		LoadAssemblies (231ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (13ms)
 			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (1113ms)
+	FinalizeReload (963ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (540ms)
+		SetupLoadedEditorAssemblies (436ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (2ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (415ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4868 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (316.1 KB). Loaded Objects now: 5491.
-Memory consumption went from 174.0 MB to 173.7 MB.
-Total: 3.909800 ms (FindLiveObjects: 0.408100 ms CreateObjectMapping: 0.269500 ms MarkObjects: 3.135100 ms  DeleteObjects: 0.096100 ms)
+Unloading 4869 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (316.1 KB). Loaded Objects now: 5492.
+Memory consumption went from 173.9 MB to 173.6 MB.
+Total: 2.965500 ms (FindLiveObjects: 0.453000 ms CreateObjectMapping: 0.153600 ms MarkObjects: 2.265600 ms  DeleteObjects: 0.092300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -318,124 +318,1321 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 340.844010 seconds.
+  Time since last request: 75.052422 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'caa2cdbd8cf172134942525d0395db5e') in 0.160976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6304b9b78501f39c0789ad655a71a6f6') in 0.025128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadDirt_cornerInner.fbx
+  artifactKey: Guid(426ce2a51fe4d134a80f1ea560676d7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadDirt_cornerInner.fbx using Guid(426ce2a51fe4d134a80f1ea560676d7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '014edcc2afb4d86f2b456ca4e08c781d') in 0.063137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Characters/Animations/Zombie Idle.anim
+  artifactKey: Guid(1b972d5ead7224e4395e0f58fe23354e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Characters/Animations/Zombie Idle.anim using Guid(1b972d5ead7224e4395e0f58fe23354e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '75f487b3a6d8252f4d126ecf03017f5e') in 0.019856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadDirt_center.fbx
+  artifactKey: Guid(eb5f937de262ba444b5d414b2ec129d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadDirt_center.fbx using Guid(eb5f937de262ba444b5d414b2ec129d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28fae63d450279fb3c0c42dc5083655a') in 0.012002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roofMetal_typeA.fbx
+  artifactKey: Guid(6b0771d998c9de64dbbbeacf5ac19284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roofMetal_typeA.fbx using Guid(6b0771d998c9de64dbbbeacf5ac19284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f07e6d43aba6c7e7015714acdf945d3c') in 0.017797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_corner.fbx
+  artifactKey: Guid(0d4bc5bf23459be4597048eaa2070e5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_corner.fbx using Guid(0d4bc5bf23459be4597048eaa2070e5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e64c40e8bd83b0696681ef48a522c7cb') in 0.023509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Characters/Textures/zombieC.png
+  artifactKey: Guid(e477c273ef0874c4bb9232576e32d695) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Characters/Textures/zombieC.png using Guid(e477c273ef0874c4bb9232576e32d695) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '531acf48f39951f4261b0c153938e5c8') in 0.047840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailAwning_small.fbx
+  artifactKey: Guid(265b32e75bc298348a20a119126154ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailAwning_small.fbx using Guid(265b32e75bc298348a20a119126154ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5ba103bde2cbb122f5c051a7c1421f5c') in 0.012666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/treePine_large.fbx
+  artifactKey: Guid(b24774ded62275f4f9cb0f93f4494d73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/treePine_large.fbx using Guid(b24774ded62275f4f9cb0f93f4494d73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09fa830ea6e266908db4dc41866f1bf4') in 0.012812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(37ce8f76ecbc9d744a8751e0ddddbcd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(37ce8f76ecbc9d744a8751e0ddddbcd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '34ef3dddc5519dd69c47b96f2d66865b') in 0.004546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0aa022e439b3e8ae457fa1eeb9477c1c') in 0.008586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Characters/Textures/survivorMaleB.png
+  artifactKey: Guid(fa9b364e045224b4287154a65bc253cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Characters/Textures/survivorMaleB.png using Guid(fa9b364e045224b4287154a65bc253cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bf52b429ca96be9ace188a55634444fd') in 0.014365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roofMetal_poles.fbx
+  artifactKey: Guid(eab9a59f3da56054581fab632a4b8198) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roofMetal_poles.fbx using Guid(eab9a59f3da56054581fab632a4b8198) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f734e69964fe9cdb93e599c423382bc5') in 0.013107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailDumpster_open.fbx
+  artifactKey: Guid(632d9cbdc5d32db4a9797ed6658a72af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailDumpster_open.fbx using Guid(632d9cbdc5d32db4a9797ed6658a72af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '90635dd23ed47122a4a098b87473e797') in 0.021213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_painted.fbx
+  artifactKey: Guid(fdfb0b87879b40a4a9e29d5a6cc9e36c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_painted.fbx using Guid(fdfb0b87879b40a4a9e29d5a6cc9e36c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '61163ce128a3b33e539f35d220071a88') in 0.017890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallB_roofSlantDetailed.fbx
+  artifactKey: Guid(e7fe0947b7da7f947a027eff969760ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallB_roofSlantDetailed.fbx using Guid(e7fe0947b7da7f947a027eff969760ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b550cef003ca9f81443b3af8313c211b') in 0.017510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_roofSlant.fbx
+  artifactKey: Guid(40092542b0eca2248960ebc3ecf825af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_roofSlant.fbx using Guid(40092542b0eca2248960ebc3ecf825af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2e48e99da7e353adbefe6522bac0236') in 0.014166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallB_garage.fbx
+  artifactKey: Guid(f3b56168b1fb12d4d99049e1aea36960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallB_garage.fbx using Guid(f3b56168b1fb12d4d99049e1aea36960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '07b92ea3492f2e7f5accd4aaed6c87a1') in 0.015927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_open.fbx
+  artifactKey: Guid(bf769d78b54f10d48a32ab8cbca799fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_open.fbx using Guid(bf769d78b54f10d48a32ab8cbca799fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '023527b7e20b8076ce5a4654594fef13') in 0.012193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallB_flatWindow.fbx
+  artifactKey: Guid(f28d0968bb7c23e40979da41c8efecbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallB_flatWindow.fbx using Guid(f28d0968bb7c23e40979da41c8efecbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0623544545e88da3cea15d24a822bf17') in 0.014806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailBricks_typeA.fbx
+  artifactKey: Guid(6390ad6d97b6592428239a5166216017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailBricks_typeA.fbx using Guid(6390ad6d97b6592428239a5166216017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc18d3c7a06de740c786be7180a8332a') in 0.023955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
   path: Assets/Scripts/EnemyManager.cs
-  artifactKey: Guid(c797ecf7490444045b123a301f4ab0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyManager.cs using Guid(c797ecf7490444045b123a301f4ab0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'efe3fbe03677aeff58ca05d7689f87f4') in 0.142056 seconds
+  artifactKey: Guid(c797ecf7490444045b123a301f4ab0c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/EnemyManager.cs using Guid(c797ecf7490444045b123a301f4ab0c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a99c98cd5b2f915096c8a16ffb3075e') in 0.005101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/door_typeB.fbx
+  artifactKey: Guid(f09066a73a0f25746abb9d7efeaafb22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/door_typeB.fbx using Guid(f09066a73a0f25746abb9d7efeaafb22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e659e72c699bb179a222ccc7e1e0c724') in 0.015022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Characters/Materials/ZombieMat.mat
+  artifactKey: Guid(36facc74455374b4c8649ffd32b68f5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Characters/Materials/ZombieMat.mat using Guid(36facc74455374b4c8649ffd32b68f5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f92e302ad5e4a0ce123110d8ad41610c') in 0.011167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadAsphalt_straight.fbx
+  artifactKey: Guid(6bd142d0f3e670548b34e415c9f057ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadAsphalt_straight.fbx using Guid(6bd142d0f3e670548b34e415c9f057ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1c41b77097c34a18abaa3e1327e2b0e') in 0.013286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailCables_typeB.fbx
+  artifactKey: Guid(69ca4250a3579dd42b568f5d9c24de77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailCables_typeB.fbx using Guid(69ca4250a3579dd42b568f5d9c24de77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '52f33312aaee7e72f9810f96af6aedf6') in 0.011350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadAsphalt_center.fbx
+  artifactKey: Guid(eb1d4e14f75c56947af692aadbdd8955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadAsphalt_center.fbx using Guid(eb1d4e14f75c56947af692aadbdd8955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f4821c491c5a4041237ae0c3cbf8ada5') in 0.011433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1558554858f0b67304d78c1c83bc221b') in 0.024355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallB_roof.fbx
+  artifactKey: Guid(09d10fcf8d00b434d9156370b6745382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallB_roof.fbx using Guid(09d10fcf8d00b434d9156370b6745382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ca797a7a7c1cb21783585db6216c043') in 0.013434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_flatWindow.fbx
+  artifactKey: Guid(dfe4a23746bc6634b9281b3477a1d590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_flatWindow.fbx using Guid(dfe4a23746bc6634b9281b3477a1d590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd107e1b9c2500c2a19fc4b51e8cae875') in 0.014952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailLight_double.fbx
+  artifactKey: Guid(d63d010c6c253894abbba43743eab9ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailLight_double.fbx using Guid(d63d010c6c253894abbba43743eab9ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91b6889cbead10feab3a5920313aa78f') in 0.012503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadAsphalt_corner.fbx
+  artifactKey: Guid(1505ee81ec57982439ab4b3f31bb9dbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadAsphalt_corner.fbx using Guid(1505ee81ec57982439ab4b3f31bb9dbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b287481ef85872c2d875be965a46f2e2') in 0.014733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailLight_single.fbx
+  artifactKey: Guid(957ee6f2bdecb0c479da464cfd64afba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailLight_single.fbx using Guid(957ee6f2bdecb0c479da464cfd64afba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df4649a785f90b5a92aeede964a56da3') in 0.011746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadAsphalt_cornerInner.fbx
+  artifactKey: Guid(ea96422d3c1182345ba8d7ba8b3f2efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadAsphalt_cornerInner.fbx using Guid(ea96422d3c1182345ba8d7ba8b3f2efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c637a14f672e8c4675e0bd9dab378a0d') in 0.013820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_detail.fbx
+  artifactKey: Guid(aa6db711ef583bc4f89445d245843dcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_detail.fbx using Guid(aa6db711ef583bc4f89445d245843dcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36da3ce141a9cfe08db47c28a2e5312f') in 0.015648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_detailPainted.fbx
+  artifactKey: Guid(227ab4a1dbe77b14e9f663b2ba7ff8be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_detailPainted.fbx using Guid(227ab4a1dbe77b14e9f663b2ba7ff8be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '14a3ac9a15fcace0a7a29fddf4842598') in 0.015151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_cornerPainted.fbx
+  artifactKey: Guid(a163d6c7ec49d33468fa2ab7a5bb47c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_cornerPainted.fbx using Guid(a163d6c7ec49d33468fa2ab7a5bb47c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc130d0f67d932fa93f116e18b3aa018') in 0.021897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/windowSmall_typeB.fbx
+  artifactKey: Guid(aaf235b5e39d87b4fa815d86f61715e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/windowSmall_typeB.fbx using Guid(aaf235b5e39d87b4fa815d86f61715e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7a63186db2334cbe22b353db4d8be716') in 0.017927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Materials/wall.mat
+  artifactKey: Guid(66c1fa547bc7aac43a0a9992267cff80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Materials/wall.mat using Guid(66c1fa547bc7aac43a0a9992267cff80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1faffb88e3f07459fbb7047763e2edcd') in 0.005641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/windowWide_typeB.fbx
+  artifactKey: Guid(d12e1fcbf9fd51748829b9cbc81db730) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/windowWide_typeB.fbx using Guid(d12e1fcbf9fd51748829b9cbc81db730) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0fd345869187637b4feb65f0d6565114') in 0.014551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailBarrierStrong_typeA.prefab
+  artifactKey: Guid(0da3f1d28ebd1f04d891c1b0f5fbaf13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailBarrierStrong_typeA.prefab using Guid(0da3f1d28ebd1f04d891c1b0f5fbaf13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '57007e9ae1a67dde9436adc1b38a9afe') in 0.014152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailBarrierStrong_typeB.prefab
+  artifactKey: Guid(9a5737c705ae88b4d88378e1746f4584) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailBarrierStrong_typeB.prefab using Guid(9a5737c705ae88b4d88378e1746f4584) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2ff29b15e7069935c34df57a4d7e9191') in 0.009254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Materials/roof.mat
+  artifactKey: Guid(188f2e7e2664a544a8237247b82e4f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Materials/roof.mat using Guid(188f2e7e2664a544a8237247b82e4f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '478b410822d2cae4bc13093a1dc24f1f') in 0.007123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/balconyLadder_bottom.prefab
+  artifactKey: Guid(9fecf7f7c6f06dc409be8b7b6899caa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/balconyLadder_bottom.prefab using Guid(9fecf7f7c6f06dc409be8b7b6899caa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '396b62845e8e0893b8768d2bda8eab46') in 0.007105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailDumpster_closed.prefab
+  artifactKey: Guid(6c4a0dff6013b8f429f1c4a79c0f8bf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailDumpster_closed.prefab using Guid(6c4a0dff6013b8f429f1c4a79c0f8bf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cdaf00d8384bd233dcdb41cd7970b43b') in 0.007064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallSteps_typeA.fbx
+  artifactKey: Guid(bcfa81cfadc26d24ca96c9d533b8ed1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallSteps_typeA.fbx using Guid(bcfa81cfadc26d24ca96c9d533b8ed1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4ecdb728151339ae6fad2923fdf91413') in 0.015625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallSteps_typeB.fbx
+  artifactKey: Guid(87a747a449ef2504c832cba161c00214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallSteps_typeB.fbx using Guid(87a747a449ef2504c832cba161c00214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e8f521ee5b6022744aea148cd922035') in 0.013920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Materials/wall_garage.mat
+  artifactKey: Guid(1c4b3edcafc34da4aadc1dd2bc0f6edc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Materials/wall_garage.mat using Guid(1c4b3edcafc34da4aadc1dd2bc0f6edc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '92a75ff45db39cfd79f297ff73960759') in 0.004788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/balconyLadder_top.prefab
+  artifactKey: Guid(4f3709afff2b86143aeedb1feb1939f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/balconyLadder_top.prefab using Guid(4f3709afff2b86143aeedb1feb1939f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51920c95ca96be155816880ef7c4fa0d') in 0.010442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailAwning_wide.prefab
+  artifactKey: Guid(d87fb1ab3af7144408dcbbe557cf15c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailAwning_wide.prefab using Guid(d87fb1ab3af7144408dcbbe557cf15c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46afdc190a39825747339a806e166956') in 0.009253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallC_flatLow.fbx
+  artifactKey: Guid(2eacba0bfd3dd3242845c9bc289eccf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallC_flatLow.fbx using Guid(2eacba0bfd3dd3242845c9bc289eccf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ceed76f64f4aec0a94622650b15758e') in 0.014448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadDirt_cornerOuter.fbx
+  artifactKey: Guid(d6e15505cd560a3498713f4f1e19b70c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadDirt_cornerOuter.fbx using Guid(d6e15505cd560a3498713f4f1e19b70c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7582caf2904fb918064e158cc351eb6') in 0.013204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wall_typeB.fbx
+  artifactKey: Guid(ff6d4af825aed4948b9b05f4c68547dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wall_typeB.fbx using Guid(ff6d4af825aed4948b9b05f4c68547dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c655bbf8f799059ef1cfe05ac4583a3') in 0.011205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallC_flat.fbx
+  artifactKey: Guid(d988af627200026409e1659af11c3b97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallC_flat.fbx using Guid(d988af627200026409e1659af11c3b97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a87c5751be85f47287999c500fb787df') in 0.013400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24f6a733bc127bd930a0302915c54f49') in 0.007133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Characters/Animations/Zombie Walking.anim
+  artifactKey: Guid(c36d89e511a95d346aa679c86f058970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Characters/Animations/Zombie Walking.anim using Guid(c36d89e511a95d346aa679c86f058970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f7a10ca185e32fdc7872ee094b2e458') in 0.017725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_window.fbx
+  artifactKey: Guid(a3fb07a37006fb14eaa822600afc8a91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_window.fbx using Guid(a3fb07a37006fb14eaa822600afc8a91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00d205be776bfd025ff86e9c341086e6') in 0.014401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.013519 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallB_door.fbx
+  artifactKey: Guid(9abafbf2292b4614d9b6b40bf65c19de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallB_door.fbx using Guid(9abafbf2292b4614d9b6b40bf65c19de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '19baa4dfec5b2946d10644b66a12df7a') in 0.014674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Materials/concrete.mat
+  artifactKey: Guid(3ddf927eba7955f44b6b45b8e95fa52d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Materials/concrete.mat using Guid(3ddf927eba7955f44b6b45b8e95fa52d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7a065304b8d28b2f6e9966374e0e19d2') in 0.005833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailBricks_typeA.prefab
+  artifactKey: Guid(f02c83561c240704da2a370fd1a0ab4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailBricks_typeA.prefab using Guid(f02c83561c240704da2a370fd1a0ab4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc3157b9db2dc165b05a46ee4de7244b') in 0.006434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/scaffolding_structure.fbx
+  artifactKey: Guid(2a1a5354c9d229f408981ad6c238cd99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/scaffolding_structure.fbx using Guid(2a1a5354c9d229f408981ad6c238cd99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e19d5880cef787f711e4f8facbbffbf') in 0.022707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/City.prefab
+  artifactKey: Guid(f1e79dc00fde5474da5cc93c83aa1a8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/City.prefab using Guid(f1e79dc00fde5474da5cc93c83aa1a8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ec754dd2a1f86bc0ba3a30baf87f3ba1') in 0.036709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2416
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Materials/treeB.mat
+  artifactKey: Guid(33215b7a157c1e54ca4136183eea8548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Materials/treeB.mat using Guid(33215b7a157c1e54ca4136183eea8548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'efa1e529c205b766647899860c5483d4') in 0.005485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b84ccdd55fbee7d6b06d73f8cce7a968') in 0.003933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roofMetal_typeA.prefab
+  artifactKey: Guid(0e58d18a1ca7e0f4bace68f8f57da1d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roofMetal_typeA.prefab using Guid(0e58d18a1ca7e0f4bace68f8f57da1d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0cd12dac6b9eb0f0562f5824ebf359dd') in 0.009423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_cornerOuter.prefab
+  artifactKey: Guid(ee8eaf7704030fb45a053b0d76409841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_cornerOuter.prefab using Guid(ee8eaf7704030fb45a053b0d76409841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '945872c6bd43ac08cbf86b1a9e35131c') in 0.007292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA.prefab
+  artifactKey: Guid(2a88fe364c5b32442bcabb0745ca345b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA.prefab using Guid(2a88fe364c5b32442bcabb0745ca345b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f030c84e31cbb9f4877f5dc8b86b4e59') in 0.007445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA_flatGarage.prefab
+  artifactKey: Guid(d38d071f412c204458402558017d065a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA_flatGarage.prefab using Guid(d38d071f412c204458402558017d065a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '572a8bdd799b64c2584d6359c529b02c') in 0.009002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA_roofSlantDetailed.prefab
+  artifactKey: Guid(cc727c43277178849aa8303563cf07fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA_roofSlantDetailed.prefab using Guid(cc727c43277178849aa8303563cf07fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4fdf077a1a69758886f2b7f48e376d48') in 0.006731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_corner.prefab
+  artifactKey: Guid(eff3dae038008f443baf6c8f2dc1df04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_corner.prefab using Guid(eff3dae038008f443baf6c8f2dc1df04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0aec16e01c1f304dc94adf9ad417ba95') in 0.008966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_side.prefab
+  artifactKey: Guid(3b519a04a0f69f944968bb0679727277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_side.prefab using Guid(3b519a04a0f69f944968bb0679727277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e409f4b5b95c0c0e79346f4b070e4705') in 0.006233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roofMetal_typeB.prefab
+  artifactKey: Guid(5ad509eccc42dec43aafebc8021ade9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roofMetal_typeB.prefab using Guid(5ad509eccc42dec43aafebc8021ade9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78cbdd25c6800e9823019a771e7808bc') in 0.009204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_center.prefab
+  artifactKey: Guid(1fdd8c4583df0c340bb2b83bb91c5e21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_center.prefab using Guid(1fdd8c4583df0c340bb2b83bb91c5e21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7a140de6dfc297d5d7292a8b1a0c88d') in 0.007150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadAsphalt_side.prefab
+  artifactKey: Guid(337ebed0087f76b4098edb2a42daa2b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadAsphalt_side.prefab using Guid(337ebed0087f76b4098edb2a42daa2b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6c96e7d6368b757ec17e87c0e92206b0') in 0.007826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/scaffolding_structure.prefab
+  artifactKey: Guid(fe73cf28d8acec64fb57b0b1fcb04f08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/scaffolding_structure.prefab using Guid(fe73cf28d8acec64fb57b0b1fcb04f08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1802f91b8c5446efe15f18ecb9e49ae4') in 0.007603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailDumpster_open.prefab
+  artifactKey: Guid(e12cd7fa21700b94fa1cb56bbea9f211) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailDumpster_open.prefab using Guid(e12cd7fa21700b94fa1cb56bbea9f211) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd7432874dd9fbcdf08575b7948a9dada') in 0.006408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/truck_green.prefab
+  artifactKey: Guid(15bd5dcc62930d04cb617cc3a3b6ae76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/truck_green.prefab using Guid(15bd5dcc62930d04cb617cc3a3b6ae76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4af6725104223f05d08bb7c271a10975') in 0.007456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadAsphalt_straight.prefab
+  artifactKey: Guid(62643bfe20aee0848ac694e1deb63a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadAsphalt_straight.prefab using Guid(62643bfe20aee0848ac694e1deb63a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6627ed58e3870f01de7ce913c61a65b6') in 0.006441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA_roofSlant.prefab
+  artifactKey: Guid(5da69201da2f4074b8b17cce5fa67134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA_roofSlant.prefab using Guid(5da69201da2f4074b8b17cce5fa67134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f694fca15ced8b6a0d55d7f8722dfff5') in 0.008785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA_open.prefab
+  artifactKey: Guid(8fa9ccfd767455c45b4e5e567e231804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA_open.prefab using Guid(8fa9ccfd767455c45b4e5e567e231804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cf49c239acc7d103fcf1ea65d9b0c027') in 0.006854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA_detailPainted.prefab
+  artifactKey: Guid(fefba8a573797134db4f7aece6b72f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA_detailPainted.prefab using Guid(fefba8a573797134db4f7aece6b72f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '017c5624aea1738d0375172240844216') in 0.008210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadAsphalt_corner.prefab
+  artifactKey: Guid(db37e8e104d30134ebf9b142ae2fa832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadAsphalt_corner.prefab using Guid(db37e8e104d30134ebf9b142ae2fa832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d1eaed1df5312fc7de7672ff230af8a') in 0.007573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailLight_single.prefab
+  artifactKey: Guid(baa58448a5b07eb409d8ace7b69a9f5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailLight_single.prefab using Guid(baa58448a5b07eb409d8ace7b69a9f5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a51c81f89cb45349d72a1013b2c88d48') in 0.006726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_pavement.prefab
+  artifactKey: Guid(70d7b905dfd1a2b4b90c642a0ed70fef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_pavement.prefab using Guid(70d7b905dfd1a2b4b90c642a0ed70fef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f508d4c862f893dfd407ff9167c7e932') in 0.008092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_tile.prefab
+  artifactKey: Guid(4c06c12bd28f0c340be5a9ec63f10bdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_tile.prefab using Guid(4c06c12bd28f0c340be5a9ec63f10bdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81e44b888b7b669e7d34c30ea24b1bd7') in 0.006079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/windowSmall_typeA.fbx
+  artifactKey: Guid(9f8b22cd4a0932b428aecbf91a3feca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/windowSmall_typeA.fbx using Guid(9f8b22cd4a0932b428aecbf91a3feca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f28aba5ec8c8a2eb599d6d2117fb72d8') in 0.013630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Characters/Animations/ZombieAnimator.controller
+  artifactKey: Guid(afde62cf06cd4db428fdefd8c75a75e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Characters/Animations/ZombieAnimator.controller using Guid(afde62cf06cd4db428fdefd8c75a75e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06ce0c3a222a5bbe7428739b1e118367') in 0.019516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Characters/Prefabs/First_Person_Player.prefab
+  artifactKey: Guid(d6834fe065295814d8d657cc943fffec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Characters/Prefabs/First_Person_Player.prefab using Guid(d6834fe065295814d8d657cc943fffec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6df765cc7e8cfdcfa99746e42e5c93e6') in 0.002768 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.923 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.452 seconds
-Domain Reload Profiling: 3374ms
-	BeginReloadAssembly (264ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (94ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (598ms)
-		LoadAssemblies (637ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (67ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2452ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (781ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (572ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 5.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4868 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (316.1 KB). Loaded Objects now: 5495.
-Memory consumption went from 174.0 MB to 173.7 MB.
-Total: 8.644400 ms (FindLiveObjects: 0.763900 ms CreateObjectMapping: 0.225000 ms MarkObjects: 7.480300 ms  DeleteObjects: 0.173500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailBarrier_typeB.fbx
+  artifactKey: Guid(2bfb45aa44f1b4f428b2f28a036632cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailBarrier_typeB.fbx using Guid(2bfb45aa44f1b4f428b2f28a036632cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b84cf7aba0ecf09798575c0d56a0937') in 0.013186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/windowWide_typeC.fbx
+  artifactKey: Guid(49d81a35041ec59408773f5a8045351b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/windowWide_typeC.fbx using Guid(49d81a35041ec59408773f5a8045351b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0446c14f3a805d4bd1438bf24339b44') in 0.012990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailBarrier_typeA.fbx
+  artifactKey: Guid(d029f94bdc1398046946eaf4a33cd298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailBarrier_typeA.fbx using Guid(d029f94bdc1398046946eaf4a33cd298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '76b30d5372eceb81d85dad73beda9e51') in 0.010587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Characters/Materials/skin.mat
+  artifactKey: Guid(b696d5af13762f04985e7be906201265) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Characters/Materials/skin.mat using Guid(b696d5af13762f04985e7be906201265) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b7bc61941a9e5706927a671bc040140') in 0.007879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadAsphalt_cornerOuter.fbx
+  artifactKey: Guid(0064dc18e52bf2d459ec69d45d302d81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roadAsphalt_cornerOuter.fbx using Guid(0064dc18e52bf2d459ec69d45d302d81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '956f666bb3be821facbab0603ba34839') in 0.013083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/tree_large.fbx
+  artifactKey: Guid(102b75bd7be3d174bb2f00c4d404eeb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/tree_large.fbx using Guid(102b75bd7be3d174bb2f00c4d404eeb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3d243798eb5f7f2a5e1d7b4651b8f0d8') in 0.015510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/tree_shrub.fbx
+  artifactKey: Guid(04fe56ac1ae94ee418780f97d891ad2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/tree_shrub.fbx using Guid(04fe56ac1ae94ee418780f97d891ad2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '650052a7200930a7495f1e409f7b7510') in 0.016918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Materials/doors.mat
+  artifactKey: Guid(cfbc13972379ffa428c5cc3b07d5792b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Materials/doors.mat using Guid(cfbc13972379ffa428c5cc3b07d5792b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'abbb9a1c1089feb7d3a47d2b524a05ff') in 0.005885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/door_typeA.prefab
+  artifactKey: Guid(0dc1c8f927179254fa32680f9b2695dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/door_typeA.prefab using Guid(0dc1c8f927179254fa32680f9b2695dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd8e9c7a875ca72606f09c2a7695d1a0c') in 0.006154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA_cornerPainted.prefab
+  artifactKey: Guid(1a2a8862611f0fb4daeba7459e2b7a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallA_cornerPainted.prefab using Guid(1a2a8862611f0fb4daeba7459e2b7a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8e35443b1ac8976aa581bc34371f50bc') in 0.009731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB_flatGarage.prefab
+  artifactKey: Guid(a9db0c6db9f8c224abccebf3eb56587f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB_flatGarage.prefab using Guid(a9db0c6db9f8c224abccebf3eb56587f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95571a08982db1d8213b7acba08104fb') in 0.006110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Textures/concrete.png
+  artifactKey: Guid(ab20c19e634ad2443a599d17c102595c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Textures/concrete.png using Guid(ab20c19e634ad2443a599d17c102595c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5344f5e49feece2528cab05223f48563') in 0.010055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/windowSmall_typeA.prefab
+  artifactKey: Guid(e10dde431f59d3d478e487970a419471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/windowSmall_typeA.prefab using Guid(e10dde431f59d3d478e487970a419471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c0fdf4764eb4de52590fdafe5d507680') in 0.006492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/windowWide_typeC.prefab
+  artifactKey: Guid(5eb1526b32d74d74bac297735839e8ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/windowWide_typeC.prefab using Guid(5eb1526b32d74d74bac297735839e8ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fcae47129a026254241d6892a5f47881') in 0.008566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/windowWide_typeD.prefab
+  artifactKey: Guid(2b63f12a16517484bad5682dff99d692) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/windowWide_typeD.prefab using Guid(2b63f12a16517484bad5682dff99d692) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '84e2f0dc53dffdfb75ab4a8ccd8d505a') in 0.006182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallBroken_typeB.prefab
+  artifactKey: Guid(a1b9d4346f3911f4498667c86ac7006f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallBroken_typeB.prefab using Guid(a1b9d4346f3911f4498667c86ac7006f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e0f9e2d1f5a3ab91e5f5339b508f911') in 0.008923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Weapons/Materials/Black_Metal.mat
+  artifactKey: Guid(51b9e54d9b1e9a843bb66aab9e3a3401) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Weapons/Materials/Black_Metal.mat using Guid(51b9e54d9b1e9a843bb66aab9e3a3401) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '170cd16db08959c24a354d5ae3218073') in 0.005696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Textures/wall_lines.png
+  artifactKey: Guid(57e0d78212b630949a7b961c6b758bd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Textures/wall_lines.png using Guid(57e0d78212b630949a7b961c6b758bd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '759812b06a5367e2929e1a747537c88f') in 0.009419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Textures/wall_metal.png
+  artifactKey: Guid(5133b0fa3bb55fb46b50952b5dc872c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Textures/wall_metal.png using Guid(5133b0fa3bb55fb46b50952b5dc872c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '657b0bd8545100edaca4d6e2b5d936dc') in 0.009782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB.prefab
+  artifactKey: Guid(56151c95a146c6e4ba0efaa92d7aa27b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB.prefab using Guid(56151c95a146c6e4ba0efaa92d7aa27b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f959e672d2e658baa3c29cdafb9bab4a') in 0.007107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Textures/windows.png
+  artifactKey: Guid(23c205c9947b55142bc1ca0f8f6d95f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Textures/windows.png using Guid(23c205c9947b55142bc1ca0f8f6d95f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d2fbdc36d7b3b3f60af462e5689d70f') in 0.008189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallC_flatLow.prefab
+  artifactKey: Guid(e1a7c02d742a6ac439c4156067e0fbc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallC_flatLow.prefab using Guid(e1a7c02d742a6ac439c4156067e0fbc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a7e73c468edeb0e09261d13889ccbb4') in 0.009156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Textures/wall.png
+  artifactKey: Guid(98c8404ae2786df408796aa395daf83a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Textures/wall.png using Guid(98c8404ae2786df408796aa395daf83a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f61b0ece140ecd5d9910d9a06198c9de') in 0.008060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB_roofDetailed.prefab
+  artifactKey: Guid(c63f3f098136f974e97c0ad7e4dfd280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB_roofDetailed.prefab using Guid(c63f3f098136f974e97c0ad7e4dfd280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a6e1bd6d0c4fa7d3d532e491d9acb9f') in 0.010184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Textures/asphalt.png
+  artifactKey: Guid(ab6e746b92e3238408d277474b5620b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Textures/asphalt.png using Guid(ab6e746b92e3238408d277474b5620b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '228a26e3ffca0783906f804ec6df80d2') in 0.010398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/windowWide_typeA.prefab
+  artifactKey: Guid(ce3b9a92264cfc44db5429395b8ce7ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/windowWide_typeA.prefab using Guid(ce3b9a92264cfc44db5429395b8ce7ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f29f33f3384b30fea99abc1cdc9865b1') in 0.009807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Weapons/3DModels/weapon.mesh
+  artifactKey: Guid(000576b18e9c46b43a074019163ed7ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Weapons/3DModels/weapon.mesh using Guid(000576b18e9c46b43a074019163ed7ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '482954f63c3673690af7945da3d5a4d3') in 0.010328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/windowWide_typeB.prefab
+  artifactKey: Guid(05c69c5ed68bc6640b90150cb65ba0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/windowWide_typeB.prefab using Guid(05c69c5ed68bc6640b90150cb65ba0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c40dd17d1147f310c85d3eff210ec00') in 0.006557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Textures/signs.png
+  artifactKey: Guid(070dc43e6cb7c9946b2e21f0cd74ae8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Textures/signs.png using Guid(070dc43e6cb7c9946b2e21f0cd74ae8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6cb9007a2610610a07c51c411ee2d4eb') in 0.008955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB_roofSlantDetailed.prefab
+  artifactKey: Guid(6a31f354ac9989543b0ccd0fdfaef53f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB_roofSlantDetailed.prefab using Guid(6a31f354ac9989543b0ccd0fdfaef53f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f9aa4e5b45ef98bf889d9a8b7e42bd7c') in 0.008334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB_flat.prefab
+  artifactKey: Guid(c6d0faf598838c24b9442f7eacdede4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB_flat.prefab using Guid(c6d0faf598838c24b9442f7eacdede4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc32b516e6b7df18120ea4d60966507c') in 0.007647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB_garage.prefab
+  artifactKey: Guid(d5770b657d9c01744a2b3d277f4e8b97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB_garage.prefab using Guid(d5770b657d9c01744a2b3d277f4e8b97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '946d7c797f6696d869d8e9ac13e437aa') in 0.011167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Textures/concreteSmooth.png
+  artifactKey: Guid(7e522eb3b2ac64a4da286c2ca4c256f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Textures/concreteSmooth.png using Guid(7e522eb3b2ac64a4da286c2ca4c256f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e7ba9f0160d4935977426f895950bc4') in 0.009894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Textures/treeA.png
+  artifactKey: Guid(87c944b79a15bc94b897578596d669fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Textures/treeA.png using Guid(87c944b79a15bc94b897578596d669fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b1b78fd125f11d67461b9824e30dc16d') in 0.007779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB_open.prefab
+  artifactKey: Guid(32201b920b431ba42b1800fb5453132b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallB_open.prefab using Guid(32201b920b431ba42b1800fb5453132b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '031e0f69e0af921197bd988fe7ab2123') in 0.008484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallSteps_typeB.prefab
+  artifactKey: Guid(88fc1f5e358993e47842dbbfa68f29cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/wallSteps_typeB.prefab using Guid(88fc1f5e358993e47842dbbfa68f29cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0455058b7615656f47a8531f7c5403a') in 0.006809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ff22744d5beaaa339144069756c805d1') in 0.003704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Materials/wall_metal.mat
+  artifactKey: Guid(de04aeeafc1d9f041880dca5ae6589ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Materials/wall_metal.mat using Guid(de04aeeafc1d9f041880dca5ae6589ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e36c30b58cf3f4a96b67260d19d79eb0') in 0.005579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/treePine_small.fbx
+  artifactKey: Guid(82e33d26446ee9d4f900a92831e93512) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/treePine_small.fbx using Guid(82e33d26446ee9d4f900a92831e93512) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '609dfc9fb13e77f82f864228a9825282') in 0.012236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailAwning_small.prefab
+  artifactKey: Guid(202fdaed48d5720448c2f73e522063d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/detailAwning_small.prefab using Guid(202fdaed48d5720448c2f73e522063d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'da4864b7e53da1c415505ae47e5e9f9c') in 0.006248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_flatPainted.fbx
+  artifactKey: Guid(0654ee0118ee5dc47baeb47cb9b3d8f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_flatPainted.fbx using Guid(0654ee0118ee5dc47baeb47cb9b3d8f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '22dc9915482aa2a3320723846e11976d') in 0.011968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Materials/grass.mat
+  artifactKey: Guid(5f2bf86e91e74d945953379a84024cf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Materials/grass.mat using Guid(5f2bf86e91e74d945953379a84024cf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06b96a70a4c95b975a199d73aa6da4cb') in 0.004726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roofMetal_typeB.fbx
+  artifactKey: Guid(0a51c557baa8e9a41a7978a8a7b62403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/roofMetal_typeB.fbx using Guid(0a51c557baa8e9a41a7978a8a7b62403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0491acffe4e5dc60ad8c541d6e46de02') in 0.014876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roofMetal_poles.prefab
+  artifactKey: Guid(eaa48efdc47296b4d924fc93de066b96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roofMetal_poles.prefab using Guid(eaa48efdc47296b4d924fc93de066b96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc788aba20d592e0f91b50598a248cef') in 0.006159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Characters/Animations/FPS_FIRING.anim
+  artifactKey: Guid(049707dc35ea77b4393b936dcab54efd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Characters/Animations/FPS_FIRING.anim using Guid(049707dc35ea77b4393b936dcab54efd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac7914a1c2669c2026a0b9486507b090') in 0.005908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Materials/wall_lines.mat
+  artifactKey: Guid(1dfe93e5072488643bcda0da573c180a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Materials/wall_lines.mat using Guid(1dfe93e5072488643bcda0da573c180a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c766ab76c0722907288325fadb918b2') in 0.004671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadAsphalt_cornerOuter.prefab
+  artifactKey: Guid(a90c8141696d1ef418ef10190414d1d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadAsphalt_cornerOuter.prefab using Guid(a90c8141696d1ef418ef10190414d1d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50e9932098d2131715b38d4b901637d5') in 0.009091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Materials/roof_plates.mat
+  artifactKey: Guid(becf9d3277d8aad4ca77a8367d8c5663) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Materials/roof_plates.mat using Guid(becf9d3277d8aad4ca77a8367d8c5663) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a0ea55bee9f611f503c51df7868acf0') in 0.004987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_lowPainted.fbx
+  artifactKey: Guid(90b526b9708f82341beee33ec1e7b8d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/wallA_lowPainted.fbx using Guid(90b526b9708f82341beee33ec1e7b8d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '407f57b8aef0da318303bb6f621a7d22') in 0.016444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadAsphalt_center.prefab
+  artifactKey: Guid(65ed78cc5463d9f4bb328ea9f843ad2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadAsphalt_center.prefab using Guid(65ed78cc5463d9f4bb328ea9f843ad2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '25f73109b13d44d80d361b83bc7f6d80') in 0.017537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailAwning_wide.fbx
+  artifactKey: Guid(daeef4a06c0f57848a4bfc5af338b4f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/3DModels/detailAwning_wide.fbx using Guid(daeef4a06c0f57848a4bfc5af338b4f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0114c7a061cc825d06d370bb83c4d751') in 0.013024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_straight.prefab
+  artifactKey: Guid(bf5cb036f9f47c249818707cd785d193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialsEU_Assets/Assets/Environment/Prefabs/roadDirt_straight.prefab using Guid(bf5cb036f9f47c249818707cd785d193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '862d78b8f27bf557814c926ad1e55ff3') in 0.007384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.625 seconds
+- Loaded All Assemblies, in  0.411 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.454 seconds
-Domain Reload Profiling: 2076ms
-	BeginReloadAssembly (195ms)
+- Finished resetting the current domain, in  1.084 seconds
+Domain Reload Profiling: 1492ms
+	BeginReloadAssembly (161ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (339ms)
-		LoadAssemblies (426ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (255ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1454ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1084ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (588ms)
+		SetupLoadedEditorAssemblies (504ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (443ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (376ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 3.94 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4868 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (316.1 KB). Loaded Objects now: 5499.
-Memory consumption went from 174.0 MB to 173.7 MB.
-Total: 3.749700 ms (FindLiveObjects: 0.455600 ms CreateObjectMapping: 0.108900 ms MarkObjects: 2.979500 ms  DeleteObjects: 0.204400 ms)
+Unloading 4869 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (316.2 KB). Loaded Objects now: 5496.
+Memory consumption went from 174.9 MB to 174.6 MB.
+Total: 3.056500 ms (FindLiveObjects: 0.440000 ms CreateObjectMapping: 0.132100 ms MarkObjects: 2.392700 ms  DeleteObjects: 0.090700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
