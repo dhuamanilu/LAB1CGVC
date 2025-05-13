@@ -73,3 +73,12 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+/Assets/InfinityPBR - Magic Pig Games.meta
+/Assets/InfinityPBR - Magic Pig Games/
+/Assets/PreFabs/Bullet.prefab
+/Assets/PreFabs/Bullet.prefab.meta
+/Assets/Scripts/SimpleProjectil.cs
+/Assets/Scripts/SimpleProjectil.cs.meta
+/all-files.txt
+/bfg-1.15.0.jar

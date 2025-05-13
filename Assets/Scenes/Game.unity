@@ -418,12 +418,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 32325596}
   m_CullTransparentMesh: 1
---- !u!1 &53619942 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5409680130137898620, guid: 955eb50ca6ca97143929189dcc3d688c,
-    type: 3}
-  m_PrefabInstance: {fileID: 934905430373764539}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &57644193 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 376817975113412249, guid: 955eb50ca6ca97143929189dcc3d688c,
@@ -4476,6 +4470,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1417095259}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1424804510 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7909016470514085014, guid: 955eb50ca6ca97143929189dcc3d688c,
+    type: 3}
+  m_PrefabInstance: {fileID: 934905430373764539}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1426107468
 GameObject:
   m_ObjectHideFlags: 0
@@ -5088,9 +5088,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c0464a9bd879404cb94909abb6aad88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCam: {fileID: 53619942}
-  range: 100
-  damage: 25
+  firePoint: {fileID: 1424804510}
+  bulletPrefab: {fileID: 6024423927633999930, guid: 12a96c383a5abdb48b38b8af9fbe1d91,
+    type: 3}
   playerAnimator: {fileID: 57644193}
 --- !u!1001 &1539695160
 PrefabInstance:
@@ -6626,6 +6626,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: First_Person_Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725202450056164943, guid: 955eb50ca6ca97143929189dcc3d688c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7909016470514085014, guid: 955eb50ca6ca97143929189dcc3d688c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8936993633294102709, guid: 955eb50ca6ca97143929189dcc3d688c,
         type: 3}
